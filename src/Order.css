@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+
+i {
+    color: #989ea3;
+}
+
+.Main {
+    display: flex;
+    width: 970px;
+    height: 160px;
+    background-color: #FFFFFF;  
+    position: relative;
+    box-shadow: 0px 2px 2px rgba(174, 176, 181, 0.314986);
+    border-radius: 6px;
+}
+
+.card{
+    border-right: 1px solid #EDEFF3;
+}
+
+.card4,
+.card1 {
+    flex: 1.5;
+}
+
+.card2 {
+    flex: 1.5;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    gap: 28px;
+    padding: 22px 35px;
+    padding-left: 20px;
+}
+
+.card3 {
+    flex: 1.8;
+    display: flex;
+    flex-direction: column;
+    padding: 23px 35px;
+    gap: 12px;
+    letter-spacing: .5px;
+}
+
+.card4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 45px 25px 0;
+}
+
+.id {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 36px;
+    gap: 16px;
+}
+
+.id::after{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    background: #EDEFF3;
+    display: flex;
+    top: 77px;
+}
+
+button {
+    width: 90px;
+    height: 36px;
+    background: #20D472;
+    border-radius: 18px;
+    border-style: none;
+    font-size: 20px;
+    letter-spacing: 0.666667px;
+    color: #FFFFFF;
+}
+
+.id i {
+    opacity: .5;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.44px;
+    height: 16px;
+    border: none;
+    background: #EDEFF3;
+    border-radius: 50%;
+    padding: 18px 18px;
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 41px;
+    font-size: 18px;
+}
+
+.time i {
+    opacity: .5;
+}
+
+.time p {
+    padding-right: 50px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .5px;
+}
+
+.name i {
+    font-size: 16px;
+    color: #989ea3;
+    margin-bottom: 22px;
+}
+
+.phoneNum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .5px;
+    font-size: 14px;
+    gap: 15px;
+    margin-left: 22px;
+}
+
+.payCost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+
+}
+
+.price {
+    display: flex;
+    gap: 11.2px;
+}
+
+.deliveryCost {
+    display: flex;
+    gap: 11.2px;
+    font-size: 14px;
+}
+
+#pay{
+    position: relative;
+}
+
+#pay::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 55px;
+    top: 4px;
+    border-radius: 25px;
+    bottom: 86.92%;
+    background: #14E5E4;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.total p {
+    font-size: 12px;
+    opacity: .5;
+}
+
+span {
+    font-weight: 300;
+}
+
+.dispatcher{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+.dispatcher p {
+    font-size: 12px;
+    opacity: .5;
+}
+
+.branch{
+    font-size: 14px;
+}
+
+.branch p{
+    font-size: 14px;
+    opacity: .5;
+}

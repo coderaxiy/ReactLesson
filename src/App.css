@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  position: relative;
+  margin-top: 90px;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E5E5;
+  width: 1060px;
+  height: 600px;
+  align-items: center;
+  overflow-y: scroll;
+  gap: 10px;
+}
